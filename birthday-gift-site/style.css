@@ -1,0 +1,111 @@
+*{
+    font-family:'happy monkey', sans-serif;
+    /* border: 1px solid red; */
+}
+body{
+    /* background-color: #a2d2ff; */
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #ffffff;
+   
+}
+#image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 5px solid #EFB0C9;
+}
+h1 ,h2, h3 ,p{
+    text-shadow: 1px 1px 1px black;
+}
+#bday-age{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+#bday-year{
+    background: #EFB0C9;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0;
+
+}
+.gift-section{
+    text-align: center;
+}
+.gift-img{
+    background-image: url(image.html/gold-ribbon-pink-background.png);
+    background-size:cover;
+    width: 400px;
+    height:400px;
+    margin: 0 auto 0 auto;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.gift-img:hover{
+    background-image: url(image.html/giphy.webp);
+}
+.gift-img2{
+    background-image: url(image.html/gold-ribbon-pink-background.png);
+    background-size:cover;
+    width: 400px;
+    height:400px;
+    margin: 0 auto 0 auto;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.gift-img2:hover{
+    background-image: url(image.html/hot.webp);
+}
+
+.gift-img3{
+    background-image: url(image.html/gold-ribbon-pink-background.png);
+    background-size:cover;
+    width: 400px;
+    height:400px;
+    margin: 0 auto 0 auto;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.gift-img3:hover{
+    background-image: url(image.html/brillant.2.webp);
+    background-position-x: -30px;
+}
+.gift-img4{
+    background-image: url(image.html/gold-ribbon-pink-background.png);
+    background-size:cover;
+    width: 400px;
+    height:400px;
+    margin: 0 auto 0 auto;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.gift-img4:hover{
+    background-image: url(image.html/badass.webp);
+    
+}
+
+.gift-img5{
+    background-image: url(image.html/gold-ribbon-pink-background.png);
+    background-size:cover;
+    width: 400px;
+    height:200px;
+    margin: 0 auto 0 auto;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.gift-img5:hover{
+    background-image: url(image.html/cheers.webp);
+    
+}
+.gift-section5 h1{
+    text-align: center;
+}
